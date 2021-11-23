@@ -8,14 +8,17 @@ h1 {
   line-height: 1.5;
 }
 
-.container-fluid {
-  padding: 3% 15% 5%;
-  /* height: 70vh;
-  overflow: hidden; */
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 /******** Title Styles ********/
 #title {
+  padding: 2% 15% 7%;
   background-color: #ff4c68;
   color: white;
 }
@@ -52,18 +55,56 @@ h1 {
 }
 
 /*^^^^^^^^^ Title Styles ^^^^^^^^^*/
-
 /******** Features Section Styles ********/
 #features {
-  margin-top: 5%;
+  padding: 7% 15%;
 }
 
-.feature-icons{
+.feature-box {
+  padding: 4.5%;
+}
+
+.feature-icons {
+  margin: 2%;
+  color: #ef8172;
+}
+
+.feature-icons:hover {
   margin: 2%;
   color: #ff4c68;
 }
 
-.feature-icons:hover{
-  margin: 2%;
-  color: red;
+/*^^^^^^^^^ Features Section Styles ^^^^^^^^^*/
+/******** Testimonials Section Styles ********/
+#testimonials {
+  background-color: #ef8172;
+  color: white;
 }
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*^^^^^^^^^ Testimonials Section Styles ^^^^^^^^^*/
