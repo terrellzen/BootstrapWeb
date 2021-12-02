@@ -1,114 +1,199 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-  font-size: 3.5rem;
-  font-weight: bold;
-  line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 h3 {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 p {
-  color: #8f8f8f;
+    color: #8f8f8f;
 }
+
 
 /******** Title Styles ********/
+
 #title {
-  padding: 2% 15% 7%;
-  background-color: #ff4c68;
-  color: white;
+    padding: 2% 15%;
+    background-color: #ff4c68;
+    color: white;
 }
 
+
 /* Navigation Bar */
+
 .navbar {
-  padding: 0 0 4.5rem;
+    padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 2.5rem;
-  font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .nav-item {
-  padding: 0 18px;
+    padding: 0 18px;
 }
 
 .nav-link {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
+
 
 /* Buttons */
+
 .download-btn {
-  margin: 5% 3% 15% 0;
+    margin: 5% 3% 15% 0;
 }
+
 
 /* Title Image */
-.iphone-img {
-  margin-left: 10%;
-  transform: rotate(25deg);
-  width: 50%;
+
+.iphone-img-sec {
+    position: relative;
 }
 
+.iphone-img {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .iphone-img {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+
 /*^^^^^^^^^ Title Styles ^^^^^^^^^*/
+
+
 /******** Features Section Styles ********/
+
 #features {
-  padding: 7% 15%;
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
 }
 
 .feature-box {
-  padding: 4.5%;
+    padding: 4.5%;
 }
 
 .feature-icons {
-  margin: 2%;
-  color: #ef8172;
+    margin: 2%;
+    color: #ef8172;
 }
 
 .feature-icons:hover {
-  margin: 2%;
-  color: #ff4c68;
+    margin: 2%;
+    color: #ff4c68;
 }
 
+
 /*^^^^^^^^^ Features Section Styles ^^^^^^^^^*/
+
+
 /******** Testimonials Section Styles ********/
+
 #testimonials {
-  background-color: #ef8172;
-  color: white;
+    background-color: #ef8172;
+    color: white;
 }
 
 .carousel-item {
-  padding: 7% 15%;
+    padding: 7% 15%;
 }
 
 .testimonial-heading {
-  font-size: 3.5rem;
-  font-weight: bold;
-  line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 .testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
 }
 
 #press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
+    background-color: #ef8172;
+    padding-bottom: 3%;
 }
 
 .press-img {
-  width: 15%;
-  margin: 20px 20px 50px;
+    width: 15%;
+    margin: 20px 20px 50px;
 }
 
+
 /*^^^^^^^^^ Testimonials Section Styles ^^^^^^^^^*/
+
+
 /******** Prices Section Styles ********/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#pricing h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card-mg {
+    margin: 5%;
+}
 
 
 /*^^^^^^^^^ Prices Section Styles ^^^^^^^^^*/
+
+
+/******** Call to Action Section Styles ********/
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    line-height: 1.5px;
+    padding: 7% 15% 0;
+    text-align: center;
+}
+
+#cta h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+/*^^^^^^^^^ Call to Action Section Styles ^^^^^^^^^*/
+
+
+/******** Footer Section Styles ********/
+
+#footer {
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer i {
+    padding: 2% .8%;
+}
+
+
+/*^^^^^^^^^ Footer Section Styles ^^^^^^^^^*/
