@@ -1,14 +1,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-h1 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    line-height: 1.5;
-}
-
-h3 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: bold;
 }
 
@@ -16,13 +16,42 @@ p {
     color: #8f8f8f;
 }
 
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+
+/********** Headings **********/
+
+.big-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/*^^^^^^^^ Headings ^^^^^^^^^*/
+
 
 /******** Title Styles ********/
 
-#title {
-    padding: 2% 15%;
-    background-color: #ff4c68;
-    color: white;
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
 }
 
 
@@ -50,7 +79,7 @@ p {
 /* Buttons */
 
 .download-btn {
-    margin: 5% 3% 15% 0;
+    margin: 5% 3% 0 0;
 }
 
 
@@ -84,8 +113,6 @@ p {
 /******** Features Section Styles ********/
 
 #features {
-    background-color: white;
-    padding: 7% 15%;
     position: relative;
 }
 
@@ -103,6 +130,10 @@ p {
     color: #ff4c68;
 }
 
+.feature-title {
+    font-size: 1.5rem;
+}
+
 
 /*^^^^^^^^^ Features Section Styles ^^^^^^^^^*/
 
@@ -111,15 +142,10 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: white;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
-.testimonial-heading {
-    font-size: 3.5rem;
+.testimonial-text {
+    font-size: 3rem;
     font-weight: bold;
     line-height: 1.5;
 }
@@ -148,10 +174,9 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
-#pricing h2 {
+.price-text {
     font-size: 3rem;
     font-weight: bold;
 }
@@ -164,32 +189,7 @@ p {
 /*^^^^^^^^^ Prices Section Styles ^^^^^^^^^*/
 
 
-/******** Call to Action Section Styles ********/
-
-#cta {
-    background-color: #ff4c68;
-    color: white;
-    line-height: 1.5px;
-    padding: 7% 15% 0;
-    text-align: center;
-}
-
-#cta h3 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-
-/*^^^^^^^^^ Call to Action Section Styles ^^^^^^^^^*/
-
-
 /******** Footer Section Styles ********/
-
-#footer {
-    background-color: white;
-    padding: 7% 15%;
-    text-align: center;
-}
 
 #footer i {
     padding: 2% .8%;
